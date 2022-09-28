@@ -7,3 +7,8 @@ class FurnappConfig(AppConfig):
 
     def ready(self):
         import furnapp.signal
+
+
+class TranslateConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'translate'

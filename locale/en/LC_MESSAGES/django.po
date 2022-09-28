@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-28 15:42+0500\n"
-"PO-Revision-Date: 2022-09-28 16:07+0000\n"
+"POT-Creation-Date: 2022-09-28 16:14+0500\n"
+"PO-Revision-Date: 2022-09-28 16:17+0000\n"
 "Last-Translator: Bekzodbek Tursunboyev <admin@g.comm>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -27,14 +27,14 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-#: .\templates\pages\malumot.html:19
-msgid "mening ishim"
-msgstr "my workkk"
-
 #: .\templates\pages\malumot.html:20
+msgid "mening ishim"
+msgstr "my job"
+
+#: .\templates\pages\malumot.html:21
 msgid "bahor"
 msgstr "spring"
 
-#: .\templates\pages\malumot.html:21
+#: .\templates\pages\malumot.html:22
 msgid "salom hammaga mening ismim Durbek"
 msgstr "hello everybody my name is Durbek"
