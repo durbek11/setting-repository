@@ -16,5 +16,5 @@ urlpatterns = [
     path('submit-succses/', SuccsesView.as_view(), name="succses"),
     path("start-<int:pk>-product/", star, name="star"),
     path("rate-check/", rate_check, name="rate_check"),
-    path("malumot/", malumot, name="malumot"),
+    path("translate/", malumot, name="malumot"),
 ] 

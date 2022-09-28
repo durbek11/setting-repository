@@ -47,8 +47,12 @@ def home(request):
     return render(request, 'pages/home.html', context)  
 
 def malumot(request):
-    malumot = get_object_or_404(TranslatePage)
-    return render(request, "translate.html", {"malumot":malumot})
+    # malumot = get_object_or_404(TranslatePage)
+    malumot = TranslatePage.objects.all()
+    context = {
+        "malumot": malumot
+    }
+    return render(request, "pages/malumot.html", context)
 
 def arrivals_detail(request, pk):
     arrivals_detalis = Arrival.objects.get(id=pk)
