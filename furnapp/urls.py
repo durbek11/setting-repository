@@ -2,6 +2,8 @@ from django.urls import path
 from django.contrib.auth.views import LoginView , LogoutView
 from .views import *
 
+
+
 app_name = "furn"
 
 urlpatterns = [
@@ -13,5 +15,6 @@ urlpatterns = [
     path('profile/', profile, name="profile"),
     path('submit-succses/', SuccsesView.as_view(), name="succses"),
     path("start-<int:pk>-product/", star, name="star"),
-    path("rate-check/", rate_check, name="rate_check")
-]
+    path("rate-check/", rate_check, name="rate_check"),
+    path("malumot/", malumot, name="malumot"),
+] 

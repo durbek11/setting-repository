@@ -4,6 +4,7 @@ from django.contrib.auth.models import AbstractUser
 from PIL import Image
 from django.utils.timezone import datetime
 from django.core.validators import MaxValueValidator, MinValueValidator
+from django.urls import reverse
 
 class MyUser(AbstractUser):
     username = None
@@ -125,3 +126,10 @@ class Contact(models.Model):
     def __str__(self):
         return self.choices
 
+class TranslatePage(models.Model):
+    name = models.CharField(max_length=100)
+    title = models.CharField(max_length=100)
+    me = models.CharField(max_length=200)
+
+    def __str__(self):
+        return self.name

@@ -46,7 +46,9 @@ def home(request):
     }
     return render(request, 'pages/home.html', context)  
 
-
+def malumot(request):
+    malumot = get_object_or_404(TranslatePage)
+    return render(request, "translate.html", {"malumot":malumot})
 
 def arrivals_detail(request, pk):
     arrivals_detalis = Arrival.objects.get(id=pk)
@@ -127,4 +129,8 @@ def rate_check(request):
 
 class SuccsesView(generic.TemplateView):
     template_name = "pages/succses.html"
+
+
+
+
 
