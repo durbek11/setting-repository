@@ -4,4 +4,4 @@ from .models import *
 
 @register(TranslatePage)
 class Malumot(TranslationOptions):
-    fields = ('name', 'title', 'me',)
+    fields = ('name', 'title',)
