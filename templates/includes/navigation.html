@@ -1,8 +1,8 @@
+{% load i18n %}
 {% load static %}
 
 <!--welcome-hero start -->
 <header id="home" class="welcome-hero">
-
     <div class="top-area">
         <div class="header-area">
             <!-- Start Navigation -->
@@ -122,6 +122,23 @@
                             <li class="scroll"><a href="#product">Products</a></li>
                             <li class="scroll"><a href="#blog">blog</a></li>
                             <li class="scroll"><a href="#contactus">contact</a></li>
+                            <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                                <input name="next" type="hidden" value="{{ redirect_to }}">
+                                <select name="language" onchange="this.form.submit()">
+                                    {% get_current_language as LANGUAGE_CODE %}
+                                    {% get_available_languages as LANGUAGES %}
+                                    {% get_language_info_list for LANGUAGES as languages %}
+                                    {% for language in languages %}
+                                    <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                                        {{ language.name_local }} ({{ language.code }})
+                                    </option>
+                                    {% endfor %}
+                                </select>
+                            
+                            </form>
+                            <h1>{% trans "Great Design Collection" %}</h1>
+                            <h3>{% trans "Valvet Accent Arm Gif" %}</h3>
+                            <h1>{% trans "Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiuiana Smod Tempor Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip." %}</h1>
                             {% if not request.user.is_authenticated %}
                             <li><a href="{% url 'furn:signup' %}">Signup</a></li>
                             <li><a href="{% url 'furn:login' %}">login</a></li>
