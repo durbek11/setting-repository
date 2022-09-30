@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-30 14:11+0500\n"
-"PO-Revision-Date: 2022-09-30 14:24+0000\n"
+"PO-Revision-Date: 2022-09-30 15:03+0000\n"
 "Last-Translator: Bekzodbek Tursunboyev <admin@g.comm>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -27,14 +27,15 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-#: .\templates\pages\malumot.html:19
-msgid "my work"
-msgstr "mening ishim"
+#: .\templates\malumot.html:18
+msgid "mening ishim"
+msgstr "my django"
 
-#: .\templates\pages\malumot.html:20
-msgid "spring"
-msgstr "bahor"
+#: .\templates\malumot.html:19
+msgid "bahor"
+msgstr "spring"
 
-#: .\templates\pages\malumot.html:21
-msgid "hello everybody my name is Durbek"
-msgstr "salom hammaga mening ismim Durbek"
+#: .\templates\malumot.html:20
+#| msgid "salom hammaga mening ismim Durbek"
+msgid "salom hammaga mening ismim Durbek"
+msgstr "hello every body. my name is Durbek"
