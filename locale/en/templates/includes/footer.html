@@ -1,0 +1,148 @@
+<!--newsletter strat -->
+{% load i18n %}
+{% load static %}
+<section id="newsletter" class="newsletter">
+    <div class="container">
+        <div class="hm-footer-details">
+            <div class="row">
+                <div class=" col-md-3 col-sm-6 col-xs-12">
+                    <div class="hm-footer-widget">
+                        <div class="hm-foot-title">
+                            <h4>{% trans "ma `lumot" %}</h4>
+                        </div>
+                        <!--/.hm-foot-title-->
+                        <div class="hm-foot-menu">
+                            <ul>
+                                <li><a href="#">{% trans "Biz haqimizda" %}</a></li>
+                                <!--/li-->
+                                <li class="scroll"><a href="#contactus">contact us</a></li>
+                                <!--/li-->
+                                <li><a href="#">{% trans "Yangiliklar" %}</a></li>
+                                <!--/li-->
+                                <li><a href="#">{% trans "do'kon" %}</a></li>
+                                <!--/li-->
+                            </ul>
+                            <!--/ul-->
+                        </div>
+                        <!--/.hm-foot-menu-->
+                    </div>
+                    <!--/.hm-footer-widget-->
+                </div>
+                <!--/.col-->
+                <div class=" col-md-3 col-sm-6 col-xs-12">
+                    <div class="hm-footer-widget">
+                        <div class="hm-foot-title">
+                            <h4>{% trans "to'plamlar" %}</h4>
+                        </div>
+                        <!--/.hm-foot-title-->
+                        <div class="hm-foot-menu">
+                            <ul>
+                                <li><a href="#">{% trans "yog`ochli stul" %}</a></li>
+                                <!--/li-->
+                                <li><a href="#">{% trans "qirollik mato divan" %}</a></li>
+                                <!--/li-->
+                                <li><a href="#">{% trans "aksent kreslo" %}</a></li>
+                                <!--/li-->
+                                <li><a href="#">{% trans "yotoq" %}</a></li>
+                                <!--/li-->
+                                <li><a href="#">{% trans "osilgan lampa" %}</a></li>
+                                <!--/li-->
+                            </ul>
+                            <!--/ul-->
+                        </div>
+                        <!--/.hm-foot-menu-->
+                    </div>
+                    <!--/.hm-footer-widget-->
+                </div>
+                <!--/.col-->
+                <div class=" col-md-3 col-sm-6 col-xs-12">
+                    <div class="hm-footer-widget">
+                        <div class="hm-foot-title">
+                            <h4>{% trans "mening hisoblarim" %}</h4>
+                        </div>
+                        <!--/.hm-foot-title-->
+                        <div class="hm-foot-menu">
+                            <ul>
+                                <li><a href="{% url 'furn:profile' %}">{% trans "mening hisobim" %}</a></li>
+                                <!--/li-->
+                                <li><a href="#">{% trans "istaklar ro`yxati" %}</a></li>
+                                <!--/li-->
+                                <li><a href="#">{% trans "Jamiyat" %}</a></li>
+                                <!--/li-->
+                                <li><a href="#">{% trans "buyurtma tarixi" %}</a></li>
+                                <!--/li-->
+                                <li><a href="#">{% trans "mening avaram" %}</a></li>
+                                <!--/li-->
+                            </ul>
+                            <!--/ul-->
+                        </div>
+                        <!--/.hm-foot-menu-->
+                    </div>
+                    <!--/.hm-footer-widget-->
+                </div>
+                <!--/.col-->
+                <div class=" col-md-3 col-sm-6  col-xs-12">
+                    <div class="hm-footer-widget">
+                        <div class="hm-foot-title">
+                            <h4>{% trans "yangiliklar xati" %}</h4>
+                        </div>
+                        <!--/.hm-foot-title-->
+                        <div class="hm-foot-para">
+                            <p>
+                                {% trans "Eng so'nggi yangiliklar, yangilanishlar va ma'lumotlarni olish uchun obuna bo'ling!" %}
+                            </p>
+                        </div>
+                        <!--/.hm-foot-para-->
+                        <div class="hm-foot-email">
+                            <div class="foot-email-box">
+                               
+                            </div>
+                        </div>
+                        <!--/.hm-foot-email-->
+                    </div>
+                    <!--/.hm-footer-widget-->
+                </div>
+                <!--/.col-->
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.hm-footer-details-->
+
+    </div>
+    <!--/.container-->
+
+</section>
+<!--/newsletter-->
+<!--newsletter end -->
+<!--footer start-->
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="hm-footer-copyright text-center">
+            <div class="footer-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+                <a href="#"><i class="fa fa-behance"></i></a>
+            </div>
+            <p>
+                &copy;{% trans "Mualliflik huquqi" %} <a href="https://github.com/durbek11">Durbek</a>  {% trans "tomonidan ishlab chiqarilgan" %}
+            </p>
+            <!--/p-->
+        </div>
+        <!--/.text-center-->
+    </div>
+    <!--/.container-->
+
+    <div id="scroll-Top">
+        <div class="return-to-top">
+            <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title=""
+                data-original-title="Back to Top" aria-hidden="true"></i>
+        </div>
+
+    </div>
+    <!--/.scroll-Top-->
+
+</footer>
+<!--/.footer-->
+<!--footer end-->

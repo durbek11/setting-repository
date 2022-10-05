@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-02 21:47+0500\n"
+"PO-Revision-Date: 2022-10-02 21:45+0000\n"
+"Last-Translator: Bekzodbek Tursunboyev <admin@g.comm>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: .\core\settings.py:120
+msgid "Uzbek"
+msgstr ""
+
+#: .\core\settings.py:121
+msgid "English"
+msgstr ""
+
+#: .\templates\includes\carousel.html:26
+msgid "Ajoyib dizayn kolleksiyasi"
+msgstr "Great Design Collection"
+
+#: .\templates\includes\carousel.html:27
+msgid "Valvet Accent kreslo"
+msgstr "Valvet Accent Arm Chair"
+
+#: .\templates\includes\carousel.html:40 .\templates\includes\carousel.html:93
+msgid "Karta qo`shish"
+msgstr "add to card"
+
+#: .\templates\includes\carousel.html:44 .\templates\includes\carousel.html:97
+msgid "qo'shimcha ma'lumot"
+msgstr "more info"
+
+#: .\templates\includes\carousel.html:80
+msgid "ajoyib dizayn kolleksiyasi"
+msgstr "Great Design Collection"
+
+#: .\templates\includes\discover.html:12
+#: .\templates\includes\navigation.html:68
+#: .\templates\includes\navigation.html:83
+msgid "kreslo"
+msgstr "armchair"
+
+#: .\templates\includes\discover.html:32
+msgid "qayta ishlangan waste va stul"
+msgstr "recycled waste and chair"
+
+#: .\templates\includes\discover.html:40
+msgid "Sotish dan boshlanadi: "
+msgstr "Sales start from: "
+
+#: .\templates\includes\discover.html:44
+msgid "ko'proq kashf qil"
+msgstr "Discover more"
+
+#: .\templates\includes\discover.html:58
+msgid "osilgan chiroq"
+msgstr "hanging lamp"
+
+#: .\templates\includes\feature.html:13
+msgid "ko`rsatilgan mahsulotlar"
+msgstr "products shown"
+
+#: .\templates\includes\feature.html:33
+msgid "Mahsulot"
+msgstr "Products"
+
+#: .\templates\includes\feature.html:52
+#, fuzzy
+#| msgid "Product not found."
+msgid "Product not found!"
+msgstr "Mahsulot topilmadi!"
+
+#: .\templates\includes\footer.html:11
+msgid "ma `lumot"
+msgstr "Information"
+
+#: .\templates\includes\footer.html:16
+msgid "Biz haqimizda"
+msgstr "About us"
+
+#: .\templates\includes\footer.html:20
+#, fuzzy
+#| msgid "yangi kelganlar"
+msgid "Yangiliklar"
+msgstr "New arrivals"
+
+#: .\templates\includes\footer.html:22
+msgid "do'kon"
+msgstr "shop"
+
+#: .\templates\includes\footer.html:35
+msgid "to'plamlar"
+msgstr "collections"
+
+#: .\templates\includes\footer.html:40
+msgid "yog`ochli stul"
+msgstr "woodly chair"
+
+#: .\templates\includes\footer.html:42
+msgid "qirollik mato divan"
+msgstr "royal fabric sofa"
+
+#: .\templates\includes\footer.html:44
+msgid "aksent kreslo"
+msgstr "Valvet Accent Arm Chair"
+
+#: .\templates\includes\footer.html:46
+msgid "yotoq"
+msgstr "bed"
+
+#: .\templates\includes\footer.html:48
+msgid "osilgan lampa"
+msgstr "hanging lamp"
+
+#: .\templates\includes\footer.html:61
+msgid "mening hisoblarim"
+msgstr "my accounts"
+
+#: .\templates\includes\footer.html:66
+msgid "mening hisobim"
+msgstr "my account"
+
+#: .\templates\includes\footer.html:68
+msgid "istaklar ro`yxati"
+msgstr "wish list"
+
+#: .\templates\includes\footer.html:70
+msgid "Jamiyat"
+msgstr "Society"
+
+#: .\templates\includes\footer.html:72
+msgid "buyurtma tarixi"
+msgstr "order history"
+
+#: .\templates\includes\footer.html:74
+msgid "mening avaram"
+msgstr "my card"
+
+#: .\templates\includes\footer.html:87
+msgid "yangiliklar xati"
+msgstr "New arrivals"
+
+#: .\templates\includes\footer.html:92
+msgid ""
+"Eng so'nggi yangiliklar, yangilanishlar va ma'lumotlarni olish uchun obuna "
+"bo'ling!"
+msgstr "Subscribe for the latest news, updates and information be!"
+
+#: .\templates\includes\footer.html:129
+msgid "Mualliflik huquqi"
+msgstr "Copyright"
+
+#: .\templates\includes\footer.html:129
+msgid "tomonidan ishlab chiqarilgan"
+msgstr "developed by"
+
+#: .\templates\includes\navigation.html:53
+msgid "qo`l"
+msgstr "arm"
+
+#: .\templates\includes\navigation.html:53
+msgid "stul"
+msgstr "chair"
+
+#: .\templates\includes\navigation.html:68
+msgid "yagona"
+msgstr "single"
+
+#: .\templates\in+cludes\navigation.html:83
+msgid "yog'och"
+msgstr "woodly"
+
+#: .\templates\includes\navigation.html:94
+msgid "jami"
+msgstr "Total"
+
+#: .\templates\includes\navigation.html:135
+msgid "uy"
+msgstr "home"
+
+#: .\templates\includes\navigation.html:136
+msgid "yangi kelgan"
+msgstr "New arrivals"
+
+#: .\templates\includes\navigation.html:137
+msgid "Mahsulotlar"
+msgstr "Products"
+
+#: .\templates\includes\navigation.html:138
+msgid "blok"
+msgstr "Blog"
+
+#: .\templates\includes\navigation.html:139
+msgid "Aloqa"
+msgstr "Contact"
+
+#: .\templates\includes\navigation.html:141
+msgid "ro`yhatdan o`tish"
+msgstr "Sign up"
+
+#: .\templates\includes\navigation.html:142
+msgid "Kirish"
+msgstr "Login"
+
+#: .\templates\includes\navigation.html:145
+msgid "Chiqish"
+msgstr "LogOut"
+
+#: .\templates\includes\navigation.html:148
+msgid "Asboblar paneli"
+msgstr "Dashboard"
+
+#: .\templates\includes\new-arrivals.html:18
+msgid "yangi kelganlar"
+msgstr "New arrivals"
+
+#: .\templates\includes\new-arrivals.html:19
+msgid "hammasi"
+msgstr "All"
+
+#: .\templates\includes\new-arrivals.html:36
+msgid "karta qoshish"
+msgstr "add to card"
+
+#: .\templates\includes\sofa-collection.html:17
+#: .\templates\includes\sofa-collection.html:37
+msgid "cheksiz divan to'plami"
+msgstr "Infinity sofa set"
+
+#: .\templates\includes\sofa-collection.html:24
+#: .\templates\includes\sofa-collection.html:44
+msgid " dan boshlab"
+msgstr " view more"
+
+#: .\templates\includes\sofa-collection.html:28
+#: .\templates\includes\sofa-collection.html:48
+msgid "ko'proq ko'rish"
+msgstr "Discover more"
