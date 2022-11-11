@@ -9,5 +9,5 @@ admin.site.register(Blog)
 admin.site.register(Product)
 admin.site.register(Category)
 admin.site.register(Profile)
-admin.site.register(Contact)g24h4th3hthrthrwthrthrw
+admin.site.register(Contact)
 admin.site.register(Comment)
