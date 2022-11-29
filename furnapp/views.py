@@ -137,5 +137,13 @@ from rest_framework import permissions
 from rest_framework import generics
 from rest_framework import filters
 
+@api_view(['GET'])
+@permission_classes(( permissions.AllowAny, ))
+
+def First(request,):
+    first = MyUser.objects.all()
+    serializers = firstAPI(first, many=True)
+
+    return Response(serializers.data)
 
 
