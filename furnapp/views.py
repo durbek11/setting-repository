@@ -126,7 +126,16 @@ def rate_check(request):
 class SuccsesView(generic.TemplateView):
     template_name = "pages/succses.html"
 
+# API #
+from .serilazires import *
+from django.shortcuts import render
 
+# import API
+from rest_framework.response import Response
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework import permissions
+from rest_framework import generics
+from rest_framework import filters
 
 
 
