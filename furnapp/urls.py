@@ -16,4 +16,6 @@ urlpatterns = [
     path('submit-succses/', SuccsesView.as_view(), name="succses"),
     path("start-<int:pk>-product/", star, name="star"),
     path("rate-check/", rate_check, name="rate_check"),
+    # api ursl
+    path('first-api/', First, name='First'),
 ] 
