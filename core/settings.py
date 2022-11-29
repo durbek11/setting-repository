@@ -30,7 +30,8 @@ INSTALLED_APPS = [
     'furnapp',
     'dashboard',
     'rosetta',
-    "widget_tweaks"
+    "widget_tweaks",
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
