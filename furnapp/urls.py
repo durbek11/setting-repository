@@ -18,5 +18,5 @@ urlpatterns = [
     path("rate-check/", rate_check, name="rate_check"),
     # api ursl
     path('first-api/', First, name='First'),
-    path('<int:pk>/first-apiID/', FirstID, name="FirstID" )
+    path('first-apiID/<int:pk>/', FirstID)
 ] 
