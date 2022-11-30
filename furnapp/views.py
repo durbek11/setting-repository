@@ -147,3 +147,13 @@ def First(request,):
     return Response(serializers.data)
 
 
+@api_view(['GET'])
+@permission_classes(( permissions.AllowAny, ))
+
+def FirstID(request):
+    first = MyUser.objects.get(id=pk)
+    serializers = firstApi(first, many=True)
+
+    return Response(serializers.data)
+
+
