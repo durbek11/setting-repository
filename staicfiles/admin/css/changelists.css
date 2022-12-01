@@ -15,9 +15,7 @@
     width: 100%;
 }
 
-.change-list .hiddenfields {
-    display: none;
-}
+.change-list .hiddenfields { display:none; }
 
 .change-list .filtered table {
     border-right: none;
@@ -27,10 +25,8 @@
     min-height: 400px;
 }
 
-.change-list .filtered .results,
-.change-list .filtered .paginator,
-.filtered #toolbar,
-.filtered div.xfull {
+.change-list .filtered .results, .change-list .filtered .paginator,
+.filtered #toolbar, .filtered div.xfull {
     width: auto;
 }
 
@@ -191,8 +187,7 @@
     color: var(--link-selected-fg);
 }
 
-#changelist-filter a:focus,
-#changelist-filter a:hover,
+#changelist-filter a:focus, #changelist-filter a:hover,
 #changelist-filter li.selected a:focus,
 #changelist-filter li.selected a:hover {
     color: var(--link-hover-color);
@@ -242,8 +237,7 @@
     width: 100%;
 }
 
-.paginator a:link,
-.paginator a:visited {
+.paginator a:link, .paginator a:visited {
     padding: 2px 6px;
     background: var(--button-bg);
     text-decoration: none;
@@ -256,8 +250,7 @@
     color: var(--link-fg);
 }
 
-.paginator a.showall:focus,
-.paginator a.showall:hover {
+.paginator a.showall:focus, .paginator a.showall:hover {
     background: none;
     color: var(--link-hover-color);
 }
@@ -273,8 +266,7 @@
     vertical-align: top;
 }
 
-.paginator a:focus,
-.paginator a:hover {
+.paginator a:focus, .paginator a:hover {
     color: white;
     background: var(--link-hover-color);
 }
@@ -304,8 +296,7 @@
     width: 100%;
 }
 
-#changelist .actions.selected {
-    /* XXX Probably unused? */
+#changelist .actions.selected { /* XXX Probably unused? */
     background: var(--body-bg);
     border-top: 1px solid var(--body-bg);
     border-bottom: 1px solid #edecd6;
@@ -359,7 +350,6 @@
     color: var(--body-fg);
 }
 
-#changelist .actions .button:focus,
-#changelist .actions .button:hover {
+#changelist .actions .button:focus, #changelist .actions .button:hover {
     border-color: var(--body-quiet-color);
 }
