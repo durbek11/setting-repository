@@ -158,7 +158,7 @@ def FirstID(request, pk):
     return Response(serializers.data)
 
 @api_view(['GET'])
-@permission_classes(( serializers.AllowAny, ))
+@permission_classes(( permissions.AllowAny, ))
 def ProfileAPI(request):
     Profile = Profile.object.all()
     serializers = ProfileAPI(first, many=True)

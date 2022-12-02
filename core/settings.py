@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-fa=ycow=)c2s#3wib1ferjpq2694+91oujijw5xxvc@*$-n@5y'
 
-
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -106,6 +106,7 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
+
 USE_TZ = True
 LANGUAGES = [
     ('uz', _('Uzbek')),
@@ -135,6 +136,14 @@ MEDIA_URL = '/media/'
 LOCALE_PATHS = [
     BASE_DIR / 'locale/'
 ]
+
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
