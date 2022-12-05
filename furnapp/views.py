@@ -165,4 +165,12 @@ def ProfileAPI(request):
 
     return FResponse(serilazires.data)
 
+@api_view(['GET'])
+@permission_classes(( permissions.AllowAny, ))
+def ProfileID(request, pk):
+    Profile = Profile.object.get(id=pk)
+    serializers = ProfileAPI(first, many=True)
+
+    return Response(serilaizers.data)
+
 

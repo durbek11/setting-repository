@@ -19,5 +19,6 @@ urlpatterns = [
     # api ursl
     path('first-api/', First, name='First'),
     path('first-apiID/<int:pk>/', FirstID),
-    path('ProfileAPI/', ProfileAPI, name="ProfileAPI")
+    path('ProfileAPI/', ProfileAPI, name="ProfileAPI"),
+    path('ProfileID/<int:pk>/', ProfileID)
 ] 
