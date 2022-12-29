@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'furnapp',
     'dashboard',
-    'API',
     'rosetta',
 
     "widget_tweaks",
