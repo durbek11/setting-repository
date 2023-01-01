@@ -1,0 +1,2 @@
+test push 
+/git hubga push qilishda muammoga duch kelinganligi sababli ochilgan txt file
